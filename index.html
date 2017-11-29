@@ -6,11 +6,75 @@
 <script src="jquery-3.2.0.min.js"></script>
 
 <link rel="icon" href="img/icon.png">
-<title>Niels van der Donk</title>
+<title>How To Sculpt A Crowd: Ctrl, Alt, Left, Right</title>
 
 </head>
 <body>
-<h1>Writing in process</h1>
+	<div class="wrapper">
 
+		<div id="header">
+		<p>How To Sculpt A Crowd: Ctrl, Alt, Left, Right</p>
+		</div>
+
+		<div id="left">
+
+		</div>
+		<div id="middle">
+		<img src="img/intro.jpg">
+		<p><i>Subject:</i><br>
+		Political memes<br><br>
+
+		<i>Research question:</i><br>
+		Can the tactics of political memes and internet culture be repurposed to create new graphic design principles?<br><br>
+
+		<article><p><i>Hypothesis:</i><br>
+Looking at the outcome of Trump’s election, we can definitely see that memes and internet culture have had a high influence on the political views of entire nations. I believe that our current common identity is shaped by these memes. At school, graphic design students are being taught to apply certain communication principles to engage with a certain group of people, and communicate your specific political view towards them. We can now see that these principles don’t withstand against the easy, DIY style, propaganda and meme creation from Conservatives. If I’m able to give us a better understanding on how these memes work, I believe we can definitely use certain aspects from political memes to create more influential, political work.</p>
+
+<p><i>Starting point:</i><br>
+I can see the believe of many fellow students in creating truly, world changing, work is heavily declining. Great political work is being made but the results are not there.<br><br>
+
+<i>Research method:</i><br>
+There are many books about the influence of internet culture on society, propoganda, communication with media and memes. Outside of books I also research a lot in internet based news outlets like blogs, Youtube channels that deal with this specific subject. Browsing the sources of where the whole meme culture comes from also has a high importance for me. On top of that, I would like to see what 4chan thinks about my views by starting threads on there and similar forums.</p></article><br><br><br>
+
+<p style="text-align:center">Niels van der Donk</p>
+
+		</div>
+		<div id="right">
+		</div>
+
+	</div>
 </body>
+
+<script>
+$(document).ready(function () {
+  
+  function type(c, i) {
+    var t = $("#header p:eq("+i+")").text()+c;
+    $("#header p:eq("+i+")").text(t);
+  }
+
+  var paras = $("#header p");
+
+  $("#header p").html();
+  $("#header p").replaceWith("");
+  
+  $.each(paras, function(i, o){
+    var interval = 10+Math.floor(Math.random() * 300);
+    var line = $(o).text();
+    $("#header").append("<p></p>");
+    var count = 0;
+    var lineLength = line.length;
+    (function loop(count, lineLength, line) {
+        var c = line[count];
+        if(count<lineLength) {
+            count++;
+            var interval = 10+Math.floor(Math.random() * 300);
+            setTimeout(function() {
+                type(c, i);
+                loop(count, lineLength, line);
+            }, interval);
+        }
+    })(count , lineLength, line);
+  });
+});</script>
 </html>
