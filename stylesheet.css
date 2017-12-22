@@ -101,7 +101,6 @@ span {
 	text-align:center;
 }
 
-
 #left {
 	float:left;
 	width:10%;
@@ -197,7 +196,7 @@ hr {
     cursor:move;
 }
 
-#image_frame img {
+#imagebig img {
 	width:100%;
 }
 
@@ -229,4 +228,14 @@ span.footnotes {
 	color:black;
 	background-color:yellow;
 	line-height:0.5;
+}
+
+#image_frame_bar {
+	width:100%;
+	background-color:yellow;
+}
+
+#content {
+	width:100%;
+	display:none;
 }
