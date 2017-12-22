@@ -3,6 +3,7 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="print-style.css" type="text/css" media="print" />
 <script src="jquery-3.2.0.min.js"></script>
 <script src="jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"/>
@@ -14,8 +15,12 @@
 </head>
 <body>
 <div id="image_frame">
+<div id="image_frame_bar">
+<button id='button_hide' onclick="myFunction()">Show/Hide Image</button>
+</div>
+<div id="imagebig">
 	<img src=''/>
-	<div id="zoom"></div>
+	</div>
 	</div>
 
 <div id="wrapper">
@@ -31,10 +36,24 @@
 <input type="button" onclick="location.href='#chapter9';" value="9. Anonymous Leaders Of The Mob" />
 <input type="button" onclick="location.href='#chapter10';" value="10. Conclusion" />
 <input type="button" onclick="location.href='#title';" value="[Home]" />
-<input type="button" onclick="location.href='#menu';" value="[Print Thesis]" />
-<button id='button_hide' onclick="myFunction()">Show/Hide Image</button>
+<input type="button" onclick="javascript:window.print()" value="[Print Thesis]" />
 <hr>
 </div>
+
+<div id="content">
+<p>1. Introduction<br>
+2. Medium Is The Identity<br>
+3. The Meme As A Political Tool<br>
+4. Cheap Images And Scary Oneliners<br>
+5. Creating The Troop With Virtual Propaganda<br>
+6. Moving The Mass For The Sake Of Trolling<br>
+7. Doubtful Laughter And Underlying Political Messages<br>
+8. Frogs And Wrinkled Man As Mascots Of A Revolution<br>
+9. Anonymous Leaders Of The Mob<br>
+10. Conclusion<br>
+</p>
+</div>
+<div id="pagebreak"></div>
 
 <div id="title">
 <p>How To Sculpt<br> A Crowd:<br> Ctrl, Alt,<br> Left, Right</p>
@@ -56,144 +75,144 @@ Royal Academy of Art, The Hague. 2018</p>
 <div class="image">
 <img src="img/File2.jpg">
 <div class="image_title">
-<a href="img/file2.jpg" target="#image_frame">2. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</a></div>
+2. A Brute Chart by /r/FindBostomBombers, a community of amateur criminologists. 2013</div>
 </div>
 
 <div class="image">
 <img src="img/File3.jpeg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">3. Still from video created to highlight Hillary Clinton seemingly spitting green substances into her glass. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File4.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">4. Chart Brute highlighting Hillary Clinton's head, unsure what is trying to be shown. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File5.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">5. Chart Brute showing wheelchair lift on Hillary Clinton's special van. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File6.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">6. Speculative Chart Brute assuming Hillary Clinton has a catheter. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File7.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">7. Chart Brute trying to proof the #pizzagate theory by showing Hillary Clinton might be a cannibal based on the syntoms of the disease "Kuru". 2016</div>
 </div>
 
 <div id="image89"></div>
 <div class="image">
 <img src="img/File8.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">8. Expanding Brain Meme concentrated on typefaces. <i>Know Your Meme</i>. 2017</div>
 </div>
 
 
 <div class="image">
 <img src="img/File9.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">9. Expanding Brain Meme about the debate on pineapple on pizza. <i>Know Your Meme</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File10.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">10. Expanding Brain Meme ridiculing the Spain - Catalonia independence issue. <i>Skrillex Is Overated And Stuff: Chapter II (Facebook page)</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File11.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">11. Expanding Brain Meme ridiculing the genderfluid discussion. <i>LiberalTears (Facebook page)</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File12.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">12. "Leftist Memes" ridiculing the meme design approach by the left <i>Reddit/CringeAnarchy</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File13.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">13. "Trump, The Art Of The Deal". <i>Donald J. Trump and Tony Schwartz</i>. 1987</div>
 </div>
 
 <div class="image">
 <img src="img/File14.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">14. "Es Lebe Deutchland!". 1930</div>
 </div>
 
 <div class="image">
 <img src="img/File15.gif">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">15. GIF of the game Mortal Kombat but edited to represent news broadcast CNN and Donald Trump. <i>Giphy</i>. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File16.gif">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">16. GIF of Donald Trump showing affection for the American flag. <i>Giphy</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File17.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">17. "God Emperor Trump", edited Warhammer 40k image. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File18.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">18. Anti-semetic Polish Poster saying "The Soviet Pyramid". It depicts soviet working class suffering under the weight of the Soviet army, Jewish bankers and Stalin. 1919</div>
 </div>
 
 <div class="image">
 <img src="img/File19.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">19. Manipule displaying Dutch politician Thierry Baudet. <i>Dank Thierry Baudet Memes</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File20.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">20. Humorous meme about Thierry Baudet his infamous lavender bag. <i>Dank Thierry Baudet Memes</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File21.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">21. "So Oder So?", Nazi propaganda against the Soviet union. <i>Rudolf Grossmann</i>. 1933</div>
 </div>
 
 <div class="image">
 <img src="img/File22.jpeg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">22. "The Fools Of Kaganovich", Book cover. <i>Karl Miedbrodt </i>. 1930</div>
 </div>
 
 <div class="image">
 <img src="img/File23.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">23. "Le Happy Merchant", Jewish caricature mainly used on 4chan. <i>A. Wyatt Man</i> 2012</div>
 </div>
 
 <div class="image">
 <img src="img/File24.png">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">24. Le Happy Merchant used to ridicule Bernie Sanders. 2016</div>
 </div>
 
 <div class="image">
 <img src="img/File25.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">25. Manipule containing different extremes to display Le Happy Merchant. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File26.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">26. Manipule showing the amount of Jewish people working for CNN and NBC News. 2010</div>
 </div>
 
 <div class="image">
 <img src="img/File27.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">27. Collection of anti semetic "factual" Manipules. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File28.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">28. Caricature with the purpose to ridicule black people. <i>Skrillex Is Overated And Stuff: Chapter II (Facebook page)</i>. 2017</div>
 </div>
 
 <div class="image">
 <img src="img/File29.jpg">
-<div class="image_title">1. Ivan Sutherland using his own developed machine called "Sketchpad". 1962</div>
+<div class="image_title">29. "Degenerate Music", Nazi propaganda depicting a black Jazz artist wearing the Star of David. 1962</div>
 </div>
 
 <div class="image">
@@ -378,6 +397,7 @@ To make my points clear, and why I came up with certain Graphic Design principle
 </span>
 </div>
 <hr>
+<div id=pagebreak></div>
 
 
 <div id="chapter2"></div>
@@ -401,7 +421,7 @@ Michael Wesch states in his lecture “<i>The Machine Is (Changing) Us: Youtube 
 <div id="quote">
 <div class="quote_info"><input type="checkbox"><b>Michael Wesch,</b> "<i>The Machine Is (Changing) Us: Youtube And The Politics Of Authenticity</i>"</b> 07/16/2009</div>
 <div class="quote_text">You get the know yourself by your relationships to others, new media creates new ways of relating to others,<br> new media creates new ways of knowing yourself.<br><br>
-><a href="https://www.youtube.com/watch?v=09gR6VPVrpw">https://www.youtube.com/watch?v=09gR6VPVrpw</a>
+><a href="https://www.youtube.com/watch?v=09gR6VPVrpw">Youtube video</a>
 </div></div>
 
 <p>
@@ -453,7 +473,7 @@ Politics of Authenticity</i>. Washington Post. <a href=" https://www.youtube.com
 </span>
 </div>
 
-<hr>
+<hr><div id=pagebreak></div>
 
 <div id="chapter3"></div>
 <p class="chapter">3. The Meme As A Political Tool</p>
@@ -467,7 +487,7 @@ For a protest sign to be functional, it has to be in the public space and prefer
 <div id="quote">
 <div class="quote_info"><input type="checkbox"><b>Tom Whyman</b>, "<i>Why the Right Is Dominating YouTube</i>" 05/18/2017</div>
 <div class="quote_text">It's an effective tool for dragging young Labour voters further left, perhaps,<br> but not turning Trump voters into Black Lives Matter activists.<br><br>
-<a href="https://www.vice.com/en_us/article/3dy7vb/why-the-right-is-dominating-youtube">https://www.vice.com/en_us/article/3dy7vb/why-the-right-is-dominating-youtube</a>
+<a href="https://www.vice.com/en_us/article/3dy7vb/why-the-right-is-dominating-youtube">Vice</a>
 </div></div>
 
 <p>
@@ -481,7 +501,7 @@ In conclusion of the first chapter, the Manipule being digital has a high advant
 
 Another principle is that it is of high importance to concentrate on the “middle” group, there is no value in pulling a Conservative further to the extreme or the other way around. <br><br>
 
-2. Know your audience, aim for the centralists<hr>
+2. Know your audience, aim for the centralists<hr><div id=pagebreak></div>
 
 <div id="chapter4"></div>
 <p class="chapter">4. Cheap Images And Scary One Liners</p>
@@ -507,12 +527,12 @@ Kuru is described on MedlinePlus as following:</p>
 <div class="side_arrows">>></div>
 <div id="quote">
 <div class="quote_info"><input type="checkbox"><b>MedlinePlus</b>, "<i>Kuru</i>" 12/05/2017</div>
-<div class="quote_text">Kuru is a very rare disease. It is caused by an infectious protein (prion) found in contaminated human brain tissue. Kuru is found among people from New Guinea who practiced a form of cannibalism in which they ate the brains of dead people as part of a funeral ritual. This practice stopped in 1960, but cases of kuru were reported for many years afterward because the disease has a long incubation period. The incubation period is the time it takes for symptoms to appear after being exposed to the agent that causes disease.<br><br>
-<a href="https://medlineplus.gov/ency/article/001379.htm">https://medlineplus.gov/ency/article/001379.htm</a>
+<div class="quote_text">Kuru is a very rare disease. It is caused by an infectious protein (prion) found in contaminated human brain tissue.<br> Kuru is found among people from New Guinea who practiced a form of cannibalism in which they ate the brains of dead people as part of a funeral ritual.<br> This practice stopped in 1960, but cases of kuru were reported for many years afterward because the disease has a long incubation period. The incubation period is the time it takes for symptoms to appear after being exposed to the agent that causes disease.<br><br>
+<a href="https://medlineplus.gov/ency/article/001379.htm">MedlinePlus</a>
 </div></div>
 
 <p>
-Based on pictures of what seems like an open wound on her tongue <span>(image 7)</span> and a video arguing that she had been carried into a car (<a href="https://medlineplus.gov/ency/article/001379.htm">https://www.youtube.com/watch?v=j9m77HkmxDo</a>), a relation has been made by conspiracy theorists and suggested that she might be a cannibal or heavily ill. By using the red circles on a detective board like composition, a sense of urgency or excessive research is being made. Sam Biddle wrote in an article for Gawker about this design approach and was the first to give the style a name tag, Chart Brute. </p>
+Based on pictures of what seems like an open wound on her tongue <span>(image 7)</span> and a video arguing that she had been carried into a car (<a href="https://medlineplus.gov/ency/article/001379.htm">https://www.youtube.com/watch?v=j9m77HkmxDo</a>), a relation has been made by conspiracy theorists and suggested that she might be a cannibal or heavily ill. By using the red circles on a detective board like composition, a sense of urgency or excessive research is being made. Sam Biddle wrote in an article for Gawker about this design approach and was the first to give the style a name tag, Chart Brute. </p><div id=pagebreak></div>
 
 <div class="side_arrows">>></div>
 <div id="quote">
@@ -539,7 +559,7 @@ I am adding the following rules to the new principles of political graphic desig
 3. Light > Heavy software<br>
 4. Message > Design<br>
 5. LQ > HQ<br>
-6. Repetition imposes truth<hr>
+6. Repetition imposes truth<hr><div id=pagebreak></div>
 
 <div id="chapter5"></div>
 <p class="chapter">5. Creating The Troop With Virtual Propaganda</p>
@@ -584,7 +604,7 @@ A clear message has been formed and the enemy has been defined. The alt-right is
 7. Portray spokes(wo)man for your movement as a caricature to increase charismatics<br>
 8. Create a clear boundary between the people of your movement and outsiders<br>
 9. Deception > Truth<br>
-10. Simplifying leads to Unifying<hr>
+10. Simplifying leads to Unifying<hr><div id=pagebreak></div>
 
 
 <div id="chapter6"></div>
@@ -617,7 +637,7 @@ Although this doesn’t deal with the graphical part of this thesis, it is of mo
 
 11. A feeling of brotherhood bonds and activates<br>
 12. Define a mutual enemy and goal<br>
-13. Mass political movements should be masked by humour<hr>
+13. Mass political movements should be masked by humour<hr><div id=pagebreak></div>
 
 
 <div id="chapter7"></div>
@@ -650,7 +670,7 @@ This is also proven in a research by Jeremy Polk, Dannagal G. Young and R. Laure
 
 14. Joke = Masked statement<br>
 15. Jokes > Statements<br>
-16. Use a globalized language<hr>
+16. Use a globalized language<hr><div id=pagebreak></div>
 
 <div id="chapter8"></div>
 <p class="chapter">8. Frogs And Wrinkled Man As Mascots Of A Revolution</p>
@@ -664,12 +684,12 @@ The left also seemed to have picked up this easy tool. The Democratic Socialist 
 A mascot tends to be more appealing then an actual person, communities relate more to pop-culture figures<br><br>
 
 17. Create mascots, not leaders<br>
-18. Mascots allow themselves to be hijacked and create new meaning<hr>
+18. Mascots allow themselves to be hijacked and create new meaning<hr><div id=pagebreak></div>
 
 <div id="chapter9"></div>
 <p class="chapter">9. Anonimity</p>
 <p>
-It’s important to note that a strong movement nowadays should function as a mob, and the mob equals the movement. The mob is at this point, entirely leaderless. The peopling involved that contribute and/or consume are spread over social different brands of social media. The movement shouldn’t have a official codified doctrine.<hr>
+It’s important to note that a strong movement nowadays should function as a mob, and the mob equals the movement. The mob is at this point, entirely leaderless. The peopling involved that contribute and/or consume are spread over social different brands of social media. The movement shouldn’t have an official codified doctrine.<hr><div id=pagebreak></div>
 
 <div id="chapter10"></div>
 <p class="chapter">10. Conclusion</p>
@@ -725,13 +745,13 @@ $(document).ready(function() {
 <script>
 $('.image').on('click', function(){
     var src = $(this).children('img').attr('src');  
-    $('#image_frame').children('img').attr('src', src);
+    $('#imagebig').children('img').attr('src', src);
 });
 </script>
 
 <script>
 function myFunction() {
-    var x = document.getElementById("image_frame");
+    var x = document.getElementById("imagebig");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
